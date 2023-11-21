@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* Style the header */
+header {
+  background-color: grey;
+  background-position: right top;
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0;
+  background: lightpink;
+  padding: 50px;
+  color:white;
+  font-size: 25px;
+}
+
+/* Style the news nav menu */
+.news {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:lightpink;
+  padding: 50px;
+  border: 1px;
+  outline-style: solid;
+ outline-width: thin;
+ margin-right:40px;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 50px;
+  height: 300px;
+}
+
+/*style the link */
+
+a{
+  color:grey;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color:grey;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:#ecebc9;
+  background-position: middle;
+  color:black;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: grey;
+  background-position: right bottom;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+img.islogo {
+  width:30%;
+  height:auto;
+  float:right;
+}
+
+img.islogo:hover {
+  opacity: 1.0;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+   
+
+<header>
+  <h2><br></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="pictures.html">Pictures</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+  <p>In the tapestry of life, a thread so strong,
+    Family's the melody, the heart's own song.
+    Bonds of love and ties that will never sever,
+    In the grand design, they last forever.
+    
+    From parents' guiding hands, we learn and grow,
+    Their wisdom and care, they constantly bestow.
+    Siblings by our side, through thick and thin,
+    
+    In laughter and tears, they're the closest kin.
+    Aunts, uncles, cousins, the extended tree,
+    A web of connections, a comforting sea.
+    In this embrace, we find our place of belonging,
+    A love so deep, it keeps our spirits strong.
+    
+    Through joy and sorrow, family's the light,
+    A beacon in the storm, a star in the night.
+    In their embrace, we find our greatest treasure,
+    For family's love is an eternal pleasure.</p>
+<a href="https://ispsc.edu.ph/campuses/santa-maria-campus/"><img src="logo.png" alt="ISPSC" class="islogo"></a> </br></br>
+</article>
+
+</section>
+
+<footer>
+  <p>all rights reserved 2023</p>
+</footer>
+
+</body>
+</html>
+

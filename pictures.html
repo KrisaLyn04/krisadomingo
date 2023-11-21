@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pictures Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style the header */
+header {
+  background-color: grey;
+  background-position: right top;
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0;
+  background: lightpink;
+  padding: 50px;
+  color:white;
+  font-size: 25px;
+}
+
+/* Style the news nav menu */
+.news {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:white;
+  padding: 15px;
+  border: 1px;
+  outline-style: solid;
+ outline-width: thin;
+ margin-right:20px;
+ font-size: 12px;
+ text-align: justify;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 50px;
+  height: 300px;
+}
+
+
+/*style the link */
+
+a{
+  color:grey;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color:grey;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:white;
+  background-position: middle;
+  color:black;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-image: grey;
+  background-position: right bottom;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 210px;
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 80px;
+}
+
+img.islogo {
+  width:150px;
+  height:150px;
+  padding:5px;
+  margin-bottom:2px;
+}
+
+img.islogo:hover {
+  opacity: 1.0;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+   
+
+<header>
+  <h2><br></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="pictures.html">Pictures</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style="text-align:center;">PICTURES</h1>
+<div class="gallery">
+  <a target="_self" href="picture1.jpeg">
+    <img src="picture1.jpeg" width="600" height="400">
+  </a>
+</div>
+<div class="gallery">
+  <a target="_self" href="picture2.jpeg">
+    <img src="picture2.jpeg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_self" href="picture6.jpeg">
+    <img src="picture6.jpeg" width="600" height="400">
+  </a>
+</div>
+<div class="gallery">
+  <a target="_self" href="picture7.jpeg">
+    <img src="picture7.jpeg" width="600" height="400">
+  </a>
+</div>
+<div class="gallery">
+  <a target="_self" href="picture8.jpeg">
+    <img src="picture8.jpeg" width="600" height="400">
+  </a>
+</div>
+<div class="gallery">
+  <a target="_self" href="picture9.jpeg">
+    <img src="picture9.jpeg" width="600" height="400">
+  </a>
+</div>
+<div class="gallery">
+  <a target="_self" href="picture10.jpeg">
+    <img src="picture10.jpeg" width="600" height="400">
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+</article>
+
+<nav  class="news">
+    <ul>
+<a href="https://ispsc.edu.ph/campuses/santa-maria-campus/"><img src="logo.png" alt="ISPSC" class="islogo"></a> </br></br>
+ </ul>
+</nav>
+</section>
+
+<footer>
+  <p>all rights reserved 2023</p>
+</footer>
+
+</body>
+</html>
+
